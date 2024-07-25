@@ -1,0 +1,2 @@
+git config --global user.name "poncedavid"
+git config --global user.email da.ponce@duocuc.cl
