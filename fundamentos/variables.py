@@ -30,6 +30,6 @@ diccionario = {
 }
 
 
-print("Mi nombre es "+ nombre + "y tengo:",edad)
+print(nombre)
 
 print(f"Mi nombre es {nombre} y tengo {edad} años")
