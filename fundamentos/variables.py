@@ -18,7 +18,7 @@ tiene_sueño = False
 
 #Listas
 
-lista_de_compras = ["CodinDojo",25,3.14,True,False, ["0",1,2,3]]
+lista_de_compras = ["CodinDojo","2004",25,3.14,True,False, ["0",1,2,3]]
 
 #Diccionarios
 #Un diccionario tiene claves y valores
@@ -33,3 +33,4 @@ diccionario = {
 print(nombre)
 
 print(f"Mi nombre es {nombre} y tengo {edad} años")
+
