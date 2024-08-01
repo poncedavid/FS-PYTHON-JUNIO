@@ -1,0 +1,2 @@
+def adios():
+    return 'Adios'
