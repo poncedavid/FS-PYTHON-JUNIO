@@ -22,3 +22,9 @@ def areaCuadrado(lado):
 def areaRectuangulo(base,altura):
     area = base*altura
     return area
+
+
+
+# #Instanciando las funciones
+
+# print(sumar(25,25))

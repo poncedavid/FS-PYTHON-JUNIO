@@ -1,9 +1,10 @@
+
 import aritmeticas
+import saludos
 
 
 
-print(aritmeticas.sumar(5,5))
-print(aritmeticas.multiplicar(10,10))
+print(saludos.saludame())
+print(aritmeticas.sumar(25,25))
 
 
-print(aritmeticas.areaCuadrado(66))

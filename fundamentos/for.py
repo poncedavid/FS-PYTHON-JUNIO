@@ -53,3 +53,14 @@ for i in numeros:
     suma += i
 
 print(f"La suma de los numeros es: {suma}")
+
+'''
+
+
+PARA DESCOMENRAR RAPIDO CTRL + K + U & command + K + U
+
+'''
+
+'''
+PARA COMENTAR RAPIDO CTRL + K + C & command + K + C
+'''
