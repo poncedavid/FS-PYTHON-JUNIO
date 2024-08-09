@@ -16,31 +16,24 @@ class Usuario:
 
 
 
+class Laptop:
 
-
-
-
-
-
-
-class Automovil:
-
-    def __init__(self,marca,modelo,anio):
-        self.marca=marca
+    def __init__(self,modelo,marca):
         self.modelo=modelo
-        self.anio=anio
-        self.kilometraje=0
+        self.marca=marca
 
 
-dojo = Usuario("Coding Dojo","dojo@coding.cl",5)
+    def informacionEquipo(self):
+        print(f"El equipo es {self.modelo} de la marca {self.marca}")
 
 
-print(dojo.balance_cuenta)
+pcTrabajo = Laptop("Macbook Pro","Apple")
+pcCasa = Laptop("Asus","Asus")
 
-dojo.hacer_deposito(2000)
+pcCasa.informacionEquipo()
 
-print(dojo.balance_cuenta)
+pcTrabajo.informacionEquipo()
 
-dojo.hacer_retiro(500)
 
-print(dojo.balance_cuenta)
+
+
