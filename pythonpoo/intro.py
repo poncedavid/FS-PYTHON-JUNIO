@@ -27,13 +27,30 @@ class Laptop:
         print(f"El equipo es {self.modelo} de la marca {self.marca}")
 
 
-pcTrabajo = Laptop("Macbook Pro","Apple")
-pcCasa = Laptop("Asus","Asus")
-
-pcCasa.informacionEquipo()
-
-pcTrabajo.informacionEquipo()
 
 
 
 
+
+
+
+
+
+
+
+
+class Edificio:
+
+    def __init__(self,altura,cantidad_deptos,direccion,vista_al_mar):
+        self.altura=altura
+        self.cantidad_deptos=cantidad_deptos
+        self.direccion=direccion
+        self.vista_al_mar=vista_al_mar
+
+
+edificioUno = Edificio("20 metros",50,"Calle Falsa 123",False)
+edificioDos = Edificio("30 metros",100,"Calle Falsa 124",True)
+
+
+
+print(f"¿Edificio con vista al mar?:{edificioDos.vista_al_mar}")
