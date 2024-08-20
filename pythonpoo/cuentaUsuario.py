@@ -83,6 +83,6 @@ juan.mostras_balance_usuario()
 # cuentaGold.deposito(1000).deposito(1000).deposito(1000).retirar(500)
 
 
-# CuentaBancaria.imprimr_todas_las_cuentas()
+CuentaBancaria.imprimr_todas_las_cuentas()
 
 
